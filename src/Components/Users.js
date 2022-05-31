@@ -15,9 +15,11 @@ function Users() {
   }, []);
 
   return (
-    <div style={{
-      padding: "20px",
-    }}>
+    <div
+      style={{
+        padding: "20px",
+      }}
+    >
       <h1>Users</h1>
       <div>
         {users.map((user) => {
