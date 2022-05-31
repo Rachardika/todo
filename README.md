@@ -1,10 +1,9 @@
 Berikut adalah brief fitur yang harus dibuat (Mandatory):
 
-
 Membuat Design UI/UX dengan Figma
 
 Membuat sistem login dan logout pada aplikasi
-Membuat fitur registrasi user 
+Membuat fitur registrasi user
 
 Endpoint (POST): https://gorest.co.in/public/v1/users
 
@@ -28,20 +27,25 @@ Get semua posts
 
 Endpoint (GET): https://gorest.co.in/public/v1/posts
 
-Get semua komentar dari sebuah post 
+Get semua komentar dari sebuah post
 
 Endpoint (GET): https://gorest.co.in/public/v1/posts/{postId}/comments
 
-Membuat komentar di sebuah post 
+Membuat komentar di sebuah post
 
 Endpoint (POST): https://gorest.co.in/public/v1/posts/{postId}/comments
 
-Mengedit komentar 
+Mengedit komentar
 
 Endpoint (PUT): https://gorest.co.in/public/v1/comments/{commentId}
 
-Menghapus komentar 
+Menghapus komentar
 
-Endpoint (DELETE): https://gorest.co.in/public/v1/comments/{commentId} 
+Endpoint (DELETE): https://gorest.co.in/public/v1/comments/{commentId}
 Upload source code ke Github
 Buat Presentasi terkait arsitektur aplikasi yg dibuat
+
+# Libraries
+
+- [x] Axios
+- [ ] React Router https://reactrouter.com/docs/en/v6
