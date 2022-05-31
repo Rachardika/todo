@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Berikut adalah brief fitur yang harus dibuat (Mandatory):
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Membuat Design UI/UX dengan Figma
 
-In the project directory, you can run:
+Membuat sistem login dan logout pada aplikasi
+Membuat fitur registrasi user 
 
-### `npm start`
+Endpoint (POST): https://gorest.co.in/public/v1/users
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Membuat fitur Get to-dos user
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Endpoint (GET): https://gorest.co.in/public/v1/users/{userId}/todos
 
-### `npm test`
+Membuat to-do
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Endpoint (POST): https://gorest.co.in/public/v1/todos
 
-### `npm run build`
+Mengubah status to-do menjadi completed/pending
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Endpoint (PUT): https://gorest.co.in/public/v1/todos/{todoId}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Menghapus to-do
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Endpoint (DELETE): https://gorest.co.in/public/v1/todos/{todoId}
 
-### `npm run eject`
+Get semua posts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Endpoint (GET): https://gorest.co.in/public/v1/posts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Get semua komentar dari sebuah post 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Endpoint (GET): https://gorest.co.in/public/v1/posts/{postId}/comments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Membuat komentar di sebuah post 
 
-## Learn More
+Endpoint (POST): https://gorest.co.in/public/v1/posts/{postId}/comments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mengedit komentar 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Endpoint (PUT): https://gorest.co.in/public/v1/comments/{commentId}
 
-### Code Splitting
+Menghapus komentar 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Endpoint (DELETE): https://gorest.co.in/public/v1/comments/{commentId} 
+Upload source code ke Github
+Buat Presentasi terkait arsitektur aplikasi yg dibuat
