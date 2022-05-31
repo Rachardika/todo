@@ -15,12 +15,21 @@ function Users() {
   }, []);
 
   return (
-    <div>
+    <div style={{
+      padding: "20px",
+    }}>
       <h1>Users</h1>
       <div>
         {users.map((user) => {
           return (
-            <div key={user.id}>
+            <div
+              key={user.id}
+              style={{
+                border: "1px solid #ccc",
+                padding: "10px",
+                marginBottom: "10px",
+              }}
+            >
               <p>Email: {user.email}</p>
               <p>Gender: {user.gender}</p>
               <p>Name: {user.name}</p>
